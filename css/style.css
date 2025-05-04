@@ -1,0 +1,76 @@
+
+@import url("https://fonts.googleapis.com/css?family=Lora:400,700|Roboto:300,400,700");
+@import url("components/avatar.css");
+@import url("components/banner.css");
+@import url("components/button.css");
+@import url("components/card.css");
+
+body {
+  font-family: 'Lora', serif;
+  font-size: 18px;
+  margin: 0;
+  background: #f8f9fa;
+}
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+a {
+  text-decoration: none;
+}
+blockquote {
+  font-style: italic;
+  color: #444;
+  background: #e9ecef;
+  padding: 20px;
+  border-left: 5px solid #007bff;
+}
+
+.university {
+  background-color: #f7f7f7;
+  padding: 40px 0;
+  margin-top: 50px;
+}
+
+.university .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.university h2 {
+  font-size: 32px;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 20px;
+}
+
+.university p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.university .btn-blue {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 18px;
+  transition: background-color 0.3s;
+}
+
+.university .btn-blue:hover {
+  background-color: #0056b3;
+}
+
+.university-img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}

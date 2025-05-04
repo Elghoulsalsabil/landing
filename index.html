@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Anesthésie & Réanimation</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Bannière -->
+  <div class="banner">
+    <div class="container">
+      <h1>L’anesthésie, au cœur du soin sécurisé</h1>
+      <h2>Découvrez les établissements et formations en anesthésie</h2>
+	  <a href="#" class="btn-blue" onclick="scrollToSection(event, 'university')">Explorer les établissements</a>
+    </div>
+  </div>
+
+  <!-- Établissements de santé -->
+  <div class="container" id="etablissements">
+    <h2>Cliniques & Hôpitaux avec service d’anesthésie</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="images/hopital_rabta.jpg" alt="CHU La Rabta Tunis">
+        <h3>CHU La Rabta - Tunis</h3>
+        <p>Service complet d’anesthésie et réanimation.</p>
+        <a href="https://fr.wikipedia.org/wiki/H%C3%B4pital_La_Rabta" class="btn-blue">Voir plus</a>
+      </div>
+      <div class="card">
+        <img src="images/clinique_avicenne.jpg" alt="Clinique Avicenne">
+        <h3>Clinique Avicenne - Sfax</h3>
+        <p>Anesthésie générale, rachianesthésie, et plus.</p>
+        <a href="https://fr.wikipedia.org/wiki/Clinique_Avicenne" class="btn-blue">Voir plus</a>
+      </div>
+      <div class="card">
+        <img src="images/hopital_sahloul.jpg" alt="CHU Sahloul Sousse">
+        <h3>CHU Sahloul - Sousse</h3>
+        <p>Plateau technique performant en anesthésie.</p>
+        <a href="https://fr.wikipedia.org/wiki/H%C3%B4pital_Sahloul" class="btn-blue">Voir plus</a>
+      </div>
+    </div>
+
+  <!-- Université -->
+<section class="university" id="university">
+  <div class="container">
+    <h2>Faculté des Sciences de la Santé - Sousse (UPSAT)</h2>
+	    <div class="card">
+	  <img src="images/upsat-sousse-logo.jpg" alt="UPSAT - Faculté des Sciences de la Santé - Sousse" class="university-img" />
+      <h3>Faculté de Médecine de Tunis</h3>
+    </div>
+    <p>L'Université Privée des Sciences Appliquées et de la Technologie (UPSAT) est une institution académique prestigieuse située à Sousse, Tunisie. Elle offre des programmes de formation dans divers domaines de la santé, y compris l'anesthésie et la réanimation.</p>
+    
+    <p>La Faculté des Sciences de la Santé de Sousse se distingue par ses formations de qualité, ses équipements modernes et son approche pratique pour la préparation des étudiants dans le domaine médical.</p>
+
+    <p>Le programme d'anesthésie et réanimation forme les futurs professionnels à l'usage des techniques d'anesthésie et à la gestion des soins critiques, dans le cadre de la préparation aux soins des patients avant, pendant et après une intervention chirurgicale.</p>
+
+    <a href="https://upsat.tn/" class="btn-blue" target="_blank">En savoir plus sur l'UPSAT</a>
+  </div>
+</section>
+
+  <!-- Citation -->
+  <div class="container">
+    <blockquote>
+      “L’anesthésie n’est pas qu’une technique, c’est une responsabilité humaine.”
+    </blockquote>
+  </div>
+  <script>
+  function scrollToSection(event, sectionId) {
+    event.preventDefault();
+    const target = document.getElementById(sectionId);
+    if (target) {
+      target.scrollIntoView({ behavior: 'smooth' });
+    }
+  }
+</script>
+</body>
+</html>
